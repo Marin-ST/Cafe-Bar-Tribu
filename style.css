@@ -1,4 +1,16 @@
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    background-image: url(/Images/CafeTribuBackgroundImage.PNG);
+    background-color: black;
+    background-image: url(/Images/TribuLogo.png);
+    background-size: cover;
 }
+
+.logo{
+    background-image: url(/Images/TribuLogo.png);
+    background-repeat: repeat;
+    background-size: cover;
+    height: auto;
+    width: 300px;
+}
+
+
