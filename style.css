@@ -1,16 +1,51 @@
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: black;
-    background-image: url(/Images/TribuLogo.png);
-    background-size: cover;
+    color: white;
 }
 
 .logo{
+    position: relative;
     background-image: url(/Images/TribuLogo.png);
-    background-repeat: repeat;
-    background-size: cover;
-    height: auto;
-    width: 300px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 670px 670px;
+    height: 685px;
+    width: auto;
 }
+
+.ul{
+    display: inline-flex;
+    position: absolute;
+    color: gray;
+    gap: 85px;
+    list-style: none;
+    font-size: 21px;
+    left: 0;
+    padding-left: 10px;
+}
+
+.ul1{
+    display: inline-flex;
+    position: absolute;
+    color: gray;
+    gap: 85px;
+    list-style: none;
+    font-size: 21px;
+    right: 0;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: white;
+}
+
 
 
