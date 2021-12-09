@@ -25,6 +25,7 @@ body{
     font-size: 21px;
     left: 0;
     padding-left: 10px;
+    top: -15px;
 }
 
 .ul1{
@@ -36,6 +37,7 @@ body{
     font-size: 21px;
     right: 0;
     padding-right: 10px;
+    top: -15px;
 }
 
 a{
@@ -74,6 +76,17 @@ a:hover{
     color: gray;
     gap: 85px;
     font-size: 15px;
+}
+
+.shop-link{
+    display: flex;
+    position: absolute;
+    height: 670px;
+    width: 670px;
+    left: 417px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 50%;  
 }
 
 

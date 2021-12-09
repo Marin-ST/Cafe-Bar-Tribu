@@ -7,6 +7,7 @@ body{
 .ul-container{
     display: flex;
     position: relative;
+    top: -15px;
 }
 
 .ul{
@@ -53,11 +54,12 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    justify-content: center;
 }
 
 .column{
     flex: 33.33%;
     padding: 5px;
     width: auto;
-    height: 373px;
+    height: 425px;
 }
