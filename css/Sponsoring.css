@@ -1,0 +1,51 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.ul-container{
+    display: flex;
+    position: relative;
+    top: -15px;
+}
+
+.ul{
+    display: inline-flex;
+    position: absolute;
+    color: gray;
+    gap: 85px;
+    list-style: none;
+    font-size: 21px;
+    left: 0;
+    padding-left: 10px;
+}
+
+.ul1{
+    display: inline-flex;
+    position: absolute;
+    color: gray;
+    gap: 85px;
+    list-style: none;
+    font-size: 21px;
+    right: 0;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: white;
+}
+
+.TribuLogo{
+    display: flex;
+    position: absolute;
+    width: auto;
+    height: 30px;
+    right: 50%;
+    top: 20px;
+}
