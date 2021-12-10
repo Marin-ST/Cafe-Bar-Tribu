@@ -89,6 +89,24 @@ a:hover{
     border-radius: 50%;  
 }
 
+.social-media-container{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    top: 25px;
+    left: 51px;
+    gap: 15px;
+}
+
+.social-media-logos{
+    display: flex;
+    width: 15px;
+    height: 15px; 
+}
+
+
+
 
 
 
